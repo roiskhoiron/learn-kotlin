@@ -8,10 +8,22 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/bookIconImageView"
+        android:id="@+id/JTransIconImageView"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_centerInParent="true"
         android:contentDescription="@null"
-        android:src="@drawable"/>
+        android:src="@drawable/white_logo_jtrans"/>
+
+    <TextView
+        android:id="@+id/JTransTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JTransIconImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/title"
+        android:textColor="@color/colorSplashText"
+        android:textSize="16sp" />
+
 </RelativeLayout>
