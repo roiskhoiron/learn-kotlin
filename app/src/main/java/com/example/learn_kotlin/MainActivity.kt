@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         JTransIconImageView.animate().apply {
             x(50f)
             y(100f)
-            duration = 1000
+            duration = 750
         }.setListener(object : Animator.AnimatorListener {
             override fun onAnimationRepeat(p0: Animator?) {
 
