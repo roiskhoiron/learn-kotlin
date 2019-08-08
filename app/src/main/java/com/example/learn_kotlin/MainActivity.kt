@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         object : CountDownTimer(5000,1000) {
             override fun onFinish() {
                 JTransTextView.visibility = View.GONE
-                loadingProgressar.visibility = View.GONE
+                loadingProgressarBar.visibility = View.GONE
                 rootView.setBackgroundColor(ContextCompat.getColor(this@MainActivity, R.color.colorSplashText))
                 JTransIconImageView.setImageResource(R.drawable.logo_jtrans)
                 startAnimation()
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         JTransIconImageView.animate().apply {
             x(50f)
             y(100f)
-            duration = 750
+            duration = 1000
         }.setListener(object : Animator.AnimatorListener {
             override fun onAnimationRepeat(p0: Animator?) {
 
