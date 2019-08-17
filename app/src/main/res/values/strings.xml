@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">learn-kotlin</string>
+    <string name="app_name">JTrans#Demo</string>
     <string name="title">JTrans</string>
     <string name="welcome_jtrans">Welcome JTrans</string>
-    <string name="operate_it_together">Operate it Together</string>
-    <string name="email">Email</string>
-    <string name="password">password</string>
-    <string name="sign_up">Sign up</string>
-    <string name="login">Login</string>
+    <string name="read_it_together">Let`s work together</string>
     <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password.?</string>
 </resources>
